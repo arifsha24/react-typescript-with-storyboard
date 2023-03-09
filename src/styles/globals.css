@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner-bg{
+    background-image: url('/banner.png');
+    width: auto;
+    object-fit: contain;
+    background-color: black;
+    background-position: center;
+
+}

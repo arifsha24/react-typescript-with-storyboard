@@ -1,0 +1,6 @@
+.banner-bg{
+    background-image: url('/banner.png');
+    object-fit: fill;
+    background-color: black;
+    
+}
