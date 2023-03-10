@@ -7,35 +7,41 @@ export default function Home() {
   <section className='banner'>
         <div className='banner-bg'>
             <div className='container-fluid mx-auto min-h-screen'>
-                <div className='justify-end p-4 pr-16 flex items-center'>
-                    <h3 className='text-4xl font-medium text-white mb-0'>Enter
-                    </h3>
-                    <span className="ml-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" className="w-6 h-6">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                      </svg>
-                    </span>
-                </div>
-                <div className='logo'>
-                    <h1 className='text-white font-bold text-7xl pt-8 pl-24'>artcryption</h1>
-                </div>
-                <div className='text-right'>
-                    <h3 className='text-4xl font-medium text-white'>nft dropping soon
-                    </h3>
-                </div>
-                <div className='box-content1 grid gap-y-8 pt-32 pl-24'>
-                    <hr className='w-24 text-white'/>
-                    <div className='text-white font-normal text-2xl'>
-                        <h5>Vitamin D</h5>
-                        <h5>by AIMSIR Studio</h5>
-                    </div>
-                    <div className='text-white font-normal text-lg'>
-                        <p>curated by Bompas & Parr &<br/>
-                        MA Creative & Louisa St. Pierre</p>
-                    </div>
-                </div>
+              <div className="min-h-screen">
+                  <div className='justify-end p-4 pr-16 flex items-center'>
+                      <h3 className='text-4xl font-medium text-white mb-0'>
+                        Enter
+                      </h3>
+                      <span className="ml-2 mt-2">
+                        <img src="/arrowright.png" alt="arrowright"/>
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" className="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                        </svg> */}
+                      </span>
+                  </div>
+                  <div className='logo'>
+                      <h1 className='text-white font-bold text-7xl pt-8 pl-24'>artcryption</h1>
+                  </div>
+              </div>
+              <div className="min-h-screen">
+                  <div className='text-right'>
+                      <h3 className='text-4xl font-medium text-white'>nft dropping soon
+                      </h3>
+                  </div>
+                  <div className='box-content1 grid gap-y-8 pt-32 pl-24'>
+                      <hr className='w-24 text-white'/>
+                      <div className='text-white font-normal text-2xl'>
+                          <h5>Vitamin D</h5>
+                          <h5>by AIMSIR Studio</h5>
+                      </div>
+                      <div className='text-white font-normal text-lg'>
+                          <p>curated by Bompas & Parr &<br/>
+                          MA Creative & Louisa St. Pierre</p>
+                      </div>
+                  </div>
+              </div>
             </div>
-            <div className="flex justify-end pt-24 pr-24">
+            <div className="flex justify-end py-24 pr-24">
               <SimpleInput
                 label="Join Waitlist"
                 placeholder="Enter your email"
@@ -48,7 +54,7 @@ export default function Home() {
     <section>
           <div className="container mx-auto">
             <div className="py-8 gap-4">
-              <h3 className="text-4xl py-8 text-black">Feature</h3>
+              <h3 className="text-4xl py-8 font-bold text-black">Featured</h3>
               {/* //Row 1 starts */}
               <div className="py-8">
                 <div className="py-8 pr-8">
@@ -166,10 +172,10 @@ export default function Home() {
       </div>
     </section>
     <section id="reachin">
-        <div className="bg-black mx-auto flex align-middle items-center justify-center">
+        <div className="bg-black mx-auto flex align-middle items-center">
           <div className="container">
-              <div className="flex py-16 items-start justify-center">
-                <h4 className="text-4xl text-white px-10 mt-2">Join Waitlist</h4>
+              <div className="flex py-16 justify-center items-start">
+                <h4 className="text-4xl text-white px-5 mt-2">Join Waitlist</h4>
                 <div className="w-96">
                   <SimpleInput
                       className="bg-transparent"
@@ -179,7 +185,7 @@ export default function Home() {
                       icon={true}
                       type="text"
                   />
-                  <span className="text-white text-xs text-left pr-24">
+                  <span className="text-white text-xs text-left">
                     Subscribe to join waitlist and also get access to the latest news and drops
                   </span>
                 </div>

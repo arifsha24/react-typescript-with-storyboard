@@ -60,7 +60,7 @@ export const ThumbCard = ({
         <figure className="px-5 pt-8">
             <img src={imgContent} alt="tablet" className="rounded-0" />
         </figure>
-        <div className="card-body gap-0 p-4">
+        <div className="card-body gap-0 p-4 px-5">
           <h2 className="card-title">{label}</h2>
           <p className='text-sm font-light'>{desc}</p>
           <div className='flex items-center'>

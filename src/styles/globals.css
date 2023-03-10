@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 .banner-bg{
-    background-image: url('/banner.png');
-    width: auto;
     object-fit: contain;
     background-color: #31353a;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url('/banner.png') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
