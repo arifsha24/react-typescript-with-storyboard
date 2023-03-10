@@ -6,7 +6,7 @@
     background-image: url('/banner.png');
     width: auto;
     object-fit: contain;
-    background-color: black;
+    background-color: #31353a;
     background-position: center;
-
+    background-repeat: no-repeat;
 }
